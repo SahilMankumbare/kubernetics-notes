@@ -35,3 +35,12 @@ kubectl get svc --all-namespaces
 the FQDN for a service is : 
 
 <service-name>.<namespace>.svc.cluster.local
+
+
+---------------------------------------------
+
+imperative vs declarative 
+
+imperative: means specifying commands to perform actions
+
+declarative : means defining the desired end state and letting kubernetes determine how to achieve it. 
