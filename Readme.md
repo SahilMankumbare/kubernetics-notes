@@ -34,4 +34,4 @@ kubectl get svc --all-namespaces
 
 the FQDN for a service is : 
 
-<service-name>.<namespace>.such.cluster.local
+<service-name>.<namespace>.svc.cluster.local
