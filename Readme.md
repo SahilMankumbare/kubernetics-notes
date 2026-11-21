@@ -43,4 +43,12 @@ imperative vs declarative
 
 imperative: means specifying commands to perform actions
 
-declarative : means defining the desired end state and letting kubernetes determine how to achieve it. 
+declarative : means defining the desired end state and letting kubernetes determine how to achieve it.
+
+-----------------------------------
+
+imperative way to create service using pod : 
+
+kubectl expose pod redis --port=6379 --name=redis-service --type=ClusterIP 
+
+-------------------------------------------
