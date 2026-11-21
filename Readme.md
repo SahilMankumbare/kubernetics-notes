@@ -20,3 +20,12 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
+
+
+
+‐--------------------------------------
+
+kubectl get svc -n marketing 
+kubectl get pods -n <namespace>
+
+kubectl get svc --all-namespaces
